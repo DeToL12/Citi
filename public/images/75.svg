@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/3-action/44-close</title>
+    <g id="Redlines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="B4_Responsive-Header-Interaction" transform="translate(-1969.000000, -373.000000)">
+            <g id="Header-/-small-/-PostAuth-/-D7-MRC-Explore-Products-L3-Checking&amp;Savings" transform="translate(1953.000000, 291.000000)">
+                <g id="responsive-header/-prelogin-/-default">
+                    <g id="web-header/prelogin-default-2">
+                        <g id="web-header/prelogin-default">
+                            <g id="header-/-mobile-/-components-/-hamburger-menu" transform="translate(0.000000, 72.000000)">
+                                <g id="icons/3-action/44-close" transform="translate(16.000000, 10.000000)">
+                                    <rect id="Background" x="0" y="0" width="26" height="26"></rect>
+                                    <path d="M3.70956384,3.8868549 C3.40474371,4.27899322 3.43245463,4.84656141 3.79269661,5.20680339 L11.571,12.985 L3.79269661,20.7636966 C3.40243446,21.1539588 3.40243446,21.7875412 3.79269661,22.1778034 L3.8868549,22.2609362 C4.27899322,22.5657563 4.84656141,22.5380454 5.20680339,22.1778034 L12.985,14.399 L20.7636966,22.1778034 C21.1539588,22.5680655 21.7875412,22.5680655 22.1778034,22.1778034 L22.2609362,22.0836451 C22.5657563,21.6915068 22.5380454,21.1239386 22.1778034,20.7636966 L14.399,12.985 L22.1778034,5.20680339 C22.5680655,4.81654124 22.5680655,4.18295876 22.1778034,3.79269661 L22.0836451,3.70956384 C21.6915068,3.40474371 21.1239386,3.43245463 20.7636966,3.79269661 L12.985,11.571 L5.20680339,3.79269661 C4.81654124,3.40243446 4.18295876,3.40243446 3.79269661,3.79269661 L3.70956384,3.8868549 Z" id="icon" fill="#04208F"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

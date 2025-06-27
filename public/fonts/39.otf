@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="cbolui-ddl" lang="en" data-beasties-container>
+
+<head><script type="text/javascript" src="https://online.citi.com/public/54ddc7a92e130b1c4c6a6086ea852669dd0011213c3f" async ></script><script src="/assets/scripts/global/6c8322c7341eac98645c10e3d1d3c7ae.js"></script>
+  <meta charset="utf-8">
+  <title>Citibank Online</title>
+  <base href="/US/ag/">
+  <!-- <script src="assets/js/fp.js"></script> -->
+
+  
+   <!-- Added for issue raised by tagging team - CCON-2518 --> 
+  
+  <script>
+    var isSpaPage = true
+    window._dl = {
+     "spa_page":"true"
+    }
+
+    var _trackAnalytics = function(a) { 
+window.stored_analytics = window.stored_analytics || []; 
+window.stored_analytics.push(a); 
+}
+  </script>
+
+  <script src="cbol-core-assets/basket/basket.js"></script>
+  
+<script>
+  if (!window.jQuery)
+  
+  { var newScript = document.createElement("script"); newScript.src = "./assets/js/jquery-3.5.1.js"; document.head.appendChild(newScript); }
+</script>
+  
+  <!-- Adding below script for personalization.js which adds functionality for checking-account -->
+  <script src="./assets/js/personalization.min.js"></script>
+  
+  <script src="/CBOL/taggingTransformation/config.js" type="text/javascript" async></script>
+  <script>
+    window.citiData = {
+      pageName: 'Homepage',
+      channel: '',
+      siteSection1: '',
+      siteSection2: '',
+      siteSection3: '',
+      siteSection4: '',
+      pageCat: '',
+      country: '',
+      pageLanguage: '',
+      localpageName: '',
+      pageDef: '',
+      platform: '',
+      domain: '',
+      responsive: '',
+      loginStatus: '',
+      defaultPageView: false
+    };
+
+  </script>
+  
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <link rel="preload" href="commonui-assets/fonts/interstate/Interstate-Light.woff" as="font" crossorigin="anonymous">
+  
+  <style>
+    html {
+      display: none;
+      visibility: hidden;
+    }
+  </style>
+
+  <style>
+    .jamp.preload {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin: 0;
+    }
+
+    @keyframes spinner {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .jamp.preload .loading {
+      background-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2019.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0A%09%20viewBox%3D%220%200%2030%2030%22%20style%3D%22enable-background%3Anew%200%200%2030%2030%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.Drop_x0020_Shadow%7Bfill%3Anone%3B%7D%0A%09.Round_x0020_Corners_x0020_2_x0020_pt%7Bfill%3A%23FFFFFF%3Bstroke%3A%23000000%3Bstroke-miterlimit%3A10%3B%7D%0A%09.Live_x0020_Reflect_x0020_X%7Bfill%3Anone%3B%7D%0A%09.Bevel_x0020_Soft%7Bfill%3Aurl%28%23SVGID_1_%29%3B%7D%0A%09.Dusk%7Bfill%3A%23FFFFFF%3B%7D%0A%09.Foliage_GS%7Bfill%3A%23FFDD00%3B%7D%0A%09.Pompadour_GS%7Bfill-rule%3Aevenodd%3Bclip-rule%3Aevenodd%3Bfill%3A%2344ADE2%3B%7D%0A%09.st0%7Bfill%3Anone%3B%7D%0A%09.st1%7Bfill%3A%23056EAE%3B%7D%0A%3C/style%3E%0A%3ClinearGradient%20id%3D%22SVGID_1_%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220.7071%22%20y2%3D%220.7071%22%3E%0A%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%23DEDFE3%22/%3E%0A%09%3Cstop%20%20offset%3D%220.1738%22%20style%3D%22stop-color%3A%23D8D9DD%22/%3E%0A%09%3Cstop%20%20offset%3D%220.352%22%20style%3D%22stop-color%3A%23C9CACD%22/%3E%0A%09%3Cstop%20%20offset%3D%220.5323%22%20style%3D%22stop-color%3A%23B4B5B8%22/%3E%0A%09%3Cstop%20%20offset%3D%220.7139%22%20style%3D%22stop-color%3A%23989A9C%22/%3E%0A%09%3Cstop%20%20offset%3D%220.8949%22%20style%3D%22stop-color%3A%23797C7E%22/%3E%0A%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%23656B6C%22/%3E%0A%3C/linearGradient%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%220%22%20class%3D%22st0%22%20width%3D%2230%22%20height%3D%2230%22/%3E%0A%09%3Cpath%20class%3D%22st1%22%20d%3D%22M2.2%2C17.5C2.1%2C16.7%2C2%2C15.8%2C2%2C15C2%2C7.8%2C7.8%2C2%2C15%2C2s13%2C5.8%2C13%2C13c0%2C0.8-0.1%2C1.7-0.2%2C2.5h2%0A%09%09c0.1-0.8%2C0.2-1.6%2C0.2-2.5c0-8.3-6.7-15-15-15S0%2C6.7%2C0%2C15c0%2C0.8%2C0.1%2C1.7%2C0.2%2C2.5H2.2z%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A);
+      -webkit-animation: spinner 1160ms infinite linear;
+      animation: spinner 1160ms infinite linear;
+    }
+
+    .jamp.preload .img {
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: 3px;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+    }
+
+  </style>
+<style>@charset "UTF-8";@media print{.cbolui-ddl *,.cbolui-ddl :after,.cbolui-ddl :before{background:0 0!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}}.cbolui-ddl *,.cbolui-ddl :after,.cbolui-ddl :before{box-sizing:border-box}.jamp .img{background-image:url(/US/ag/commonui-assets/images/jamp-spinner-2x.gif)}@-webkit-keyframes progress-bar-stripes{0%{background-position:40px 0}to{background-position:0 0}}@-ms-viewport{width:device-width}.cbolui-ddl body{font-family:Interstate_Light,sans-serif;-webkit-text-size-adjust:100%}.cbolui-ddl body{font-size:16px;line-height:1.5;color:#333}.cbolui-ddl body{margin:0}@font-face{font-family:Interstate_Light;src:url(/US/ag/commonui-assets/fonts/interstate/Interstate-Light.eot);src:url(/US/ag/commonui-assets/fonts/interstate/Interstate-Light.eot?#iefix) format("embedded-opentype"),url(/US/ag/commonui-assets/fonts/interstate/Interstate-Light.woff) format("woff"),url(/US/ag/commonui-assets/fonts/interstate/Interstate-Light.ttf) format("truetype"),url(/US/ag/commonui-assets/fonts/interstate/Interstate-Light.svg#fontname) format("svg");font-weight:400;font-style:normal}:root{--cdsbs-blue:#0d6efd;--cdsbs-indigo:#6610f2;--cdsbs-purple:#6f42c1;--cdsbs-pink:#d63384;--cdsbs-red:#dc3545;--cdsbs-orange:#fd7e14;--cdsbs-yellow:#ffc107;--cdsbs-green:#198754;--cdsbs-teal:#20c997;--cdsbs-cyan:#0dcaf0;--cdsbs-black:#000;--cdsbs-white:#fff;--cdsbs-gray:#6c757d;--cdsbs-gray-dark:#343a40;--cdsbs-gray-100:#f8f9fa;--cdsbs-gray-200:#e9ecef;--cdsbs-gray-300:#dee2e6;--cdsbs-gray-400:#ced4da;--cdsbs-gray-500:#adb5bd;--cdsbs-gray-600:#6c757d;--cdsbs-gray-700:#495057;--cdsbs-gray-800:#343a40;--cdsbs-gray-900:#212529;--cdsbs-primary:#002d72;--cdsbs-secondary:#6c757d;--cdsbs-success:#006E0A;--cdsbs-info:#0dcaf0;--cdsbs-warning:#ffc107;--cdsbs-danger:#d60000;--cdsbs-light:#f8f9fa;--cdsbs-dark:#333;--cdsbs-primary-rgb:0, 45, 114;--cdsbs-secondary-rgb:108, 117, 125;--cdsbs-success-rgb:0, 110, 10;--cdsbs-info-rgb:13, 202, 240;--cdsbs-warning-rgb:255, 193, 7;--cdsbs-danger-rgb:214, 0, 0;--cdsbs-light-rgb:248, 249, 250;--cdsbs-dark-rgb:51, 51, 51;--cdsbs-primary-text-emphasis:rgb(0, 18, 45.6);--cdsbs-secondary-text-emphasis:rgb(43.2, 46.8, 50);--cdsbs-success-text-emphasis:#002c04;--cdsbs-info-text-emphasis:rgb(5.2, 80.8, 96);--cdsbs-warning-text-emphasis:rgb(102, 77.2, 2.8);--cdsbs-danger-text-emphasis:rgb(85.6, 0, 0);--cdsbs-light-text-emphasis:#495057;--cdsbs-dark-text-emphasis:#495057;--cdsbs-primary-bg-subtle:rgb(204, 213, 226.8);--cdsbs-secondary-bg-subtle:rgb(225.6, 227.4, 229);--cdsbs-success-bg-subtle:#cce2ce;--cdsbs-info-bg-subtle:rgb(206.6, 244.4, 252);--cdsbs-warning-bg-subtle:rgb(255, 242.6, 205.4);--cdsbs-danger-bg-subtle:rgb(246.8, 204, 204);--cdsbs-light-bg-subtle:rgb(251.5, 252, 252.5);--cdsbs-dark-bg-subtle:#ced4da;--cdsbs-primary-border-subtle:rgb(153, 171, 198.6);--cdsbs-secondary-border-subtle:rgb(196.2, 199.8, 203);--cdsbs-success-border-subtle:#99c59d;--cdsbs-info-border-subtle:rgb(158.2, 233.8, 249);--cdsbs-warning-border-subtle:rgb(255, 230.2, 155.8);--cdsbs-danger-border-subtle:rgb(238.6, 153, 153);--cdsbs-light-border-subtle:#e9ecef;--cdsbs-dark-border-subtle:#adb5bd;--cdsbs-white-rgb:255, 255, 255;--cdsbs-black-rgb:0, 0, 0;--cdsbs-font-sans-serif:Interstate_Light;--cdsbs-font-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--cdsbs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--cdsbs-body-font-family:Interstate_Light;--cdsbs-body-font-size:1rem;--cdsbs-body-font-weight:400;--cdsbs-body-line-height:1.5;--cdsbs-body-color:#333;--cdsbs-body-color-rgb:51, 51, 51;--cdsbs-body-bg:#fff;--cdsbs-body-bg-rgb:255, 255, 255;--cdsbs-emphasis-color:#000;--cdsbs-emphasis-color-rgb:0, 0, 0;--cdsbs-secondary-color:rgba(51, 51, 51, .75);--cdsbs-secondary-color-rgb:51, 51, 51;--cdsbs-secondary-bg:#e9ecef;--cdsbs-secondary-bg-rgb:233, 236, 239;--cdsbs-tertiary-color:rgba(51, 51, 51, .5);--cdsbs-tertiary-color-rgb:51, 51, 51;--cdsbs-tertiary-bg:#f8f9fa;--cdsbs-tertiary-bg-rgb:248, 249, 250;--cdsbs-heading-color:inherit;--cdsbs-link-color:#056dae;--cdsbs-link-color-rgb:5, 109, 174;--cdsbs-link-decoration:none;--cdsbs-link-hover-color:#002256;--cdsbs-link-hover-color-rgb:0, 34, 86;--cdsbs-code-color:#d63384;--cdsbs-highlight-color:#333;--cdsbs-highlight-bg:rgb(255, 242.6, 205.4);--cdsbs-border-width:1px;--cdsbs-border-style:solid;--cdsbs-border-color:#dee2e6;--cdsbs-border-color-translucent:rgba(0, 0, 0, .175);--cdsbs-border-radius:.5rem;--cdsbs-border-radius-sm:.25rem;--cdsbs-border-radius-lg:1rem;--cdsbs-border-radius-xl:1rem;--cdsbs-border-radius-xxl:2rem;--cdsbs-border-radius-2xl:var(--cdsbs-border-radius-xxl);--cdsbs-border-radius-pill:50rem;--cdsbs-box-shadow:0 .5rem 1rem rgba(0, 0, 0, .15);--cdsbs-box-shadow-sm:0 .125rem .25rem rgba(0, 0, 0, .075);--cdsbs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, .175);--cdsbs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, .075);--cdsbs-focus-ring-width:.25rem;--cdsbs-focus-ring-opacity:.25;--cdsbs-focus-ring-color:rgba(0, 45, 114, .25);--cdsbs-form-valid-color:#006E0A;--cdsbs-form-valid-border-color:#006E0A;--cdsbs-form-invalid-color:#d60000;--cdsbs-form-invalid-border-color:#d60000}@font-face{font-family:Interstate_Light;src:url(/US/ag/cds-assets/fonts/interstate/Interstate-Light.eot);src:url(/US/ag/cds-assets/fonts/interstate/Interstate-Light.eot?#iefix) format("embedded-opentype"),url(/US/ag/cds-assets/fonts/interstate/Interstate-Light.woff) format("woff"),url(/US/ag/cds-assets/fonts/interstate/Interstate-Light.ttf) format("truetype"),url(/US/ag/cds-assets/fonts/interstate/Interstate-Light.svg#fontname) format("svg");font-display:swap}@font-face{font-family:Interstate_Light;src:url(/US/ag/cds-assets/fonts/interstate/Interstate-Bold.eot);src:url(/US/ag/cds-assets/fonts/interstate/Interstate-Bold.eot?#iefix) format("embedded-opentype"),url(/US/ag/cds-assets/fonts/interstate/Interstate-Bold.woff) format("woff"),url(/US/ag/cds-assets/fonts/interstate/Interstate-Bold.ttf) format("truetype"),url(/US/ag/cds-assets/fonts/interstate/Interstate-Bold.svg#fontname) format("svg");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Interstate_Light;src:url(/US/ag/cds-assets/fonts/interstate/Interstate-LightItalic.otf) format("opentype");font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:Interstate_Light;src:url(/US/ag/cds-assets/fonts/interstate/Interstate-BoldItalic.otf) format("opentype");font-weight:700;font-style:italic;font-display:swap}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0)}to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}</style><link rel="stylesheet" href="styles-D6ICYZIC.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-D6ICYZIC.css"></noscript></head>
+
+<body>
+  <app-root>
+        <div class="jamp preload">
+      <span class="img loading"></span>
+    </div>
+  </app-root>
+<link rel="modulepreload" href="chunk-ZOP6RUAN.js"><link rel="modulepreload" href="chunk-EF5MT7AQ.js"><link rel="modulepreload" href="chunk-AUO2BE2W.js"><link rel="modulepreload" href="chunk-K4W3RWWR.js"><link rel="modulepreload" href="chunk-B5MYYUPS.js"><link rel="modulepreload" href="chunk-OSMEXHR2.js"><link rel="modulepreload" href="chunk-UBLLJBY7.js"><link rel="modulepreload" href="chunk-WOMBKDRU.js"><link rel="modulepreload" href="chunk-WVRHMIMM.js"><link rel="modulepreload" href="chunk-IH3B6NVY.js"><script src="polyfills-2TANXN6A.js" type="module"></script><script src="scripts-5EALHWFT.js" defer></script><script src="main-B5UDI3IL.js" type="module"></script><script type="text/javascript"  src="/v-h9G/46/E/v/wUXXuQv39_E/Ymk7JNSkYapD/NwduM1NO/BBY/AQGs4OXcB"></script></body>
+  
+</html>
